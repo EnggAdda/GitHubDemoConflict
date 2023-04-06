@@ -11,7 +11,7 @@ public class GitHubDemoConflictApplication {
 
     @GetMapping("/hello")
     public String hello(){
-        return  "Hello";
+        return  "Hi";
     }
     public static void main(String[] args) {
         SpringApplication.run(GitHubDemoConflictApplication.class, args);
